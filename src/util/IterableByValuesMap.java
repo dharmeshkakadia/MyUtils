@@ -9,7 +9,7 @@ import com.google.common.collect.Iterables;
 import com.google.common.collect.Ordering;
 import com.google.common.collect.TreeMultimap;
 
-public class IterableByValuesMap extends ForwardingMap<String,Double> implements Iterable<java.util.Map.Entry<Double,String>> {
+public class IterableByValuesMap extends ForwardingMap<String,Double> implements Iterable<Map.Entry<Double,String>> {
 
 	// This is the words->long Map
 	private final Map<String,Double> hashMap = new HashMap<String,Double>();
